@@ -11,32 +11,241 @@
       <header>
         <h1 class="logo"></h1>
         <nav>
-          <a href="#">About me</a>
-          <a href="#">Project</a>
-          <a href="#">Experience</a>
-          <a href="#">Achievements and Awards</a>
+          <a href="#about">About me</a>
+          <a href="#projects">Project</a>
+          <a href="#experience">Involvements</a>
+          <a href="#achievements">Achievements and Awards</a>
+          <a href="#contact">Contact</a>
         </nav>
       </header>
       <main>
-        <div class="content">
-          <h1>About Me</h1>
-          <p class="description">
-            Hi! I’m Sebika Khulal, a Computer Science student at Texas State
-            University with a minor in Mathematics. I love building applications
-            that combine clean design with practical functionality. From
-            full-stack development to UI enhancement, I enjoy turning ideas into
-            interactive, user-centered experiences. Recently, I’ve worked on
-            projects like a travel app with real-time navigation and a coffee
-            shop finder app where I handled both design and development. I’m
-            passionate about continuous learning, solving problems creatively,
-            and bringing a bit of aesthetic flair into everything I build.
-          </p>
-        </div>
+        <section id="hero" class="hero-section">
+          <spline-viewer
+            class="hero-bg"
+            url="https://prod.spline.design/T8HRpz5DocmEgsB2/scene.splinecode"
+          >
+          </spline-viewer>
+
+          <div class="hero-text">
+            <h1>Sebika Khulal</h1>
+            <p>
+              ✨ I’m a Computer Science student at Texas State University who
+              loves bringing ideas to life through code and design. I’m
+              passionate about full-stack development, UI/UX design, and
+              scalable web apps
+            </p>
+          </div>
+        </section>
+
+        <section id="about" class="page-section">
+          <div class="about-wrapper">
+            <div class="content">
+              <h1>About Me</h1>
+              <p class="description">
+                Hi! I’m Sebika Khulal, a Computer Science student at Texas State
+                University with a minor in Mathematics. I love building
+                applications that combine clean design with practical
+                functionality. From full-stack development to UI enhancement, I
+                enjoy turning ideas into interactive, user-centered experiences.
+                Recently, I’ve worked on projects like a travel app with
+                real-time navigation and a coffee shop finder app where I
+                handled both design and development. I’m passionate about
+                continuous learning, solving problems creatively, and bringing a
+                bit of aesthetic flair into everything I build.
+              </p>
+            </div>
+            <div class="profile-photo">
+              <img src="pp.jpg" alt="Sebika Khulal" />
+            </div>
+          </div>
+        </section>
+
+        <section id="projects" class="page-section">
+          <div class="content">
+            <h1>Projects</h1>
+            <div class="project-grid">
+              <div class="project-card">
+                <h2>Scholar Graph</h2>
+                <p>
+                  Decentralized knowledge graph verifying research authenticity
+                  using Neo4j and Solidity.
+                </p>
+                <a
+                  href="https://github.com/tiloschankarki/ScholarGraph/tree/seb-setup"
+                  target="_blank"
+                  >View on GitHub</a
+                >
+              </div>
+
+              <div class="project-card">
+                <h2>Coffee Dunk</h2>
+                <p>
+                  Coffee Dunk is a cozy cafe discovery app where users can
+                  explore local cafes, share photos, rate drinks, and connect
+                  with other coffee lovers.
+                </p>
+                <a
+                  href="https://github.com/Sebika-K/coffee-dunk"
+                  target="_blank"
+                  >View on GitHub</a
+                >
+              </div>
+
+              <div class="project-card">
+                <h2>Booth Buddy</h2>
+                <p>
+                  Booth Buddy is a photo booth web app that lets users capture
+                  pictures, apply fun filters, create custom photo strips, and
+                  instantly download or share them, all powered by React and
+                  Firebase.
+                </p>
+                <a
+                  href="https://github.com/livlaurel/Booth-Buddy/tree/auth-feature"
+                  target="_blank"
+                  >View on GitHub</a
+                >
+              </div>
+
+              <div class="project-card">
+                <h2>What's the move?</h2>
+                <p>
+                  What’s the Move? is a smart travel app that lets users plan
+                  trips, navigate in real time, and get instant chatbot
+                  assistance, all in one interactive platform.
+                </p>
+                <a
+                  href="https://bitbucket.org/cs3398-vulcans-f24/whats_the_move/src/Main/"
+                  target="_blank"
+                  >View on Bitbucket</a
+                >
+              </div>
+              <div class="project-card">
+                <h2>LLM Prompt Injection Tester</h2>
+                <p>
+                  Research tool that automates Framework Component, Separator
+                  Disruption and Recursive Prompt attacks across GPT-4, Gemini
+                  Pro and Grok-1, logs success/failure, and produces
+                  visualizations and CSV exports to help evaluate and harden LLM
+                  integrations.
+                </p>
+                <a
+                  href="https://github.com/abhetu/LLM-Prompt-Injection-Tester"
+                  target="_blank"
+                  >View on GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Leadership Section -->
+        <section id="experience" class="page-section">
+          <div class="content">
+            <h1>Leadership and Involvements</h1>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h2>
+                    Undergraduate Instructional Assistant — Texas State
+                    University
+                  </h2>
+                  <span class="date">Aug 2024 – Present</span>
+                  <p>
+                    Lead physics lab sessions and assisted 30+ students weekly,
+                    improving class performance by 30% through personalized
+                    support and Excel-based data analysis.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h2>STEM Connect Hackathon — Fall 2025</h2>
+                  <span class="date">Sep 19 – 22, 2025</span>
+                  <p>
+                    Built ScholarGraph, a decentralized knowledge graph
+                    verifying research authenticity using Neo4j and Solidity at
+                    SASE’s national STEM Connect Hackathon.
+                  </p>
+                </div>
+              </div>
+
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h2>Society of Women Engineers (SWE) — TXST Chapter</h2>
+                  <span class="date">2024 – Present</span>
+                  <p>
+                    Active member of SWE TXST chapter, participating in outreach
+                    and volunteer initiatives supporting women in STEM.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="page-section">
+          <div class="content">
+            <h1>Achievements & Awards</h1>
+            <div class="achievements-grid">
+              <div class="achievement-card">
+                <h2>🎓 Dean’s List (2022 – 2025)</h2>
+                <p>
+                  Recognized for maintaining a 3.7 GPA and academic excellence
+                  throughout Computer Science program at Texas State University.
+                </p>
+              </div>
+
+              <div class="achievement-card">
+                <h2>🏅 Texas State Merit Scholarship</h2>
+                <p>
+                  Awarded for exceptional academic performance and sustained
+                  high GPA among College of Science and Engineering students.
+                </p>
+              </div>
+
+              <div class="achievement-card">
+                <h2>💻 100 Days of Python (Udemy Certificate)</h2>
+                <p>
+                  Completed a comprehensive course on advanced Python
+                  development covering APIs, automation, and web frameworks.
+                </p>
+              </div>
+
+              <div class="achievement-card">
+                <h2>🌐 JavaScript Essential Training & HTML/CSS Certificate</h2>
+                <p>
+                  Earned credentials in front-end web development fundamentals
+                  and responsive design best practices.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="page-section">
+          <div class="content contact-content">
+            <h1>Contact Me</h1>
+            <p class="contact-intro">
+              I’d love to connect! Whether you want to collaborate on a project,
+              discuss ideas, or just say hi — feel free to reach out.
+            </p>
+
+            <div class="socials">
+              <a href="mailto:khulalsebika11@gmail.com">Email</a>
+              <a
+                href="https://www.linkedin.com/in/sebika-khulal/"
+                target="_blank"
+                >LinkedIn</a
+              >
+              <a href="https://github.com/Sebika-K" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </section>
       </main>
-      <spline-viewer
-        class="balloon"
-        url="https://prod.spline.design/T8HRpz5DocmEgsB2/scene.splinecode"
-      ></spline-viewer>
     </div>
     <script
       type="module"
